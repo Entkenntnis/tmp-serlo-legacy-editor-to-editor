@@ -1,7 +1,7 @@
 import { v4 } from 'uuid';
 import { converter } from '@serlo/markdown';
 import { chain, splitWhen, reduce, concat } from 'ramda';
-import { serializer } from '@edtr-io/plugin-text';
+import { serializer } from 'test-edtr-io/plugin-text';
 import { createElement } from 'react';
 import Html from 'slate-html-serializer';
 import { parseFragment } from 'parse5';

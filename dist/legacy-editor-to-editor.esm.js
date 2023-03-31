@@ -1,11 +1,12 @@
 import { v4 } from 'uuid';
 import { converter } from '@serlo/markdown';
 import { chain, splitWhen, reduce, concat } from 'ramda';
-import { serializer } from 'test-edtr-io/plugin-text';
 import { createElement } from 'react';
 import Html from 'slate-html-serializer';
 import { parseFragment } from 'parse5';
 import { Value } from 'slate';
+
+const serializer = null // not supported anymore
 
 function _extends() {
   _extends = Object.assign || function (target) {

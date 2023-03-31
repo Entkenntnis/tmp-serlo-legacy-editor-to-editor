@@ -7,7 +7,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var uuid = require('uuid');
 var markdown = require('@serlo/markdown');
 var R = require('ramda');
-var pluginText = require('@edtr-io/plugin-text');
+var pluginText = null;
 var React = require('react');
 var Html = _interopDefault(require('slate-html-serializer'));
 var parse5 = require('parse5');

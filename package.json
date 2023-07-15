@@ -1,9 +1,9 @@
 {
   "name": "@serlo/legacy-editor-to-editor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "main": "dist/index.js",
-  "module": "dist/legacy-editor-to-editor.esm.js",
+  "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "type": "module",
   "scripts": {

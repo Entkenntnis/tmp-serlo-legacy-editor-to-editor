@@ -1,10 +1,11 @@
 {
   "name": "@serlo/legacy-editor-to-editor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "main": "dist/index.js",
   "module": "dist/legacy-editor-to-editor.esm.js",
   "typings": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc --outDir ./dist/",
     "lint:tsc": "tsc --noEmit"

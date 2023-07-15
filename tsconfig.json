@@ -1,16 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
     "jsx": "react",
-    "module": "ESNext",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "outDir": "dist"
+    "sourceMap": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext",
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
-  "include": ["src/"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }

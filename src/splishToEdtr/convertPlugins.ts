@@ -1,4 +1,6 @@
-import { serializer } from "@edtr-io/plugin-text";
+import { convertOldSlate, htmlToSlate } from "./convertSlate";
+import { ContentCell, OtherPlugin, Plugin } from "./types";
+import { convertSplishToEdtrIO } from "..";
 import {
   SplishBlockquoteState,
   SplishCodeState,
@@ -9,9 +11,7 @@ import {
   SplishTableState,
   SplishTextState,
 } from "../legacyToSplish/createPlugin";
-import { convertOldSlate, htmlToSlate } from "./convertSlate";
-import { ContentCell, OtherPlugin, Plugin } from "./types";
-import { convertSplishToEdtrIO } from "..";
+import { serializer } from "../state-migration-serializer";
 
 export function convertPlugin(cell: ContentCell): OtherPlugin {
   const { plugin, state } = cell.content;
